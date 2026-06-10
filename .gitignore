@@ -1,0 +1,20 @@
+# Obsidian local config — NEVER push this to the GitHub mirror.
+# It's per-machine state (window positions, plugin settings, etc.)
+# and would create noisy diffs on every other machine that syncs.
+**/.obsidian/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# hello-agent runtime
+.opencode/
+.harness/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
